@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* NavBar */
+
+#navbar {
+    font-size: 20px;
+    display: flex;
+    background-color: #001d3d;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.7em 1em 0.7em 1em;
+}
+
+#navbar a {
+    text-decoration: none;
+    /* color: black; */
+    color: #e5e5e5;
+
+}
+
+#nav-left {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+ul:first-child {
+    gap: 1.5em;
+}
+
+#nav-left li:nth-of-type(2) {
+    margin-left: 2em;
+}
+
+#brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+
+#nav-left img {
+    width: 30px;
+}
+
+#nav-center {
+    display: flex;
+    list-style-type: none;
+    flex-basis: 800px;
+    max-width: 800px;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+/* ------------------------------ */
+/* Header */
+
+header {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    font-size: 30px;
+    padding: 5em 1em 5em 5em;
+    color: #e5e5e5;
+}
+
+header p {
+    font-size: .7em;
+}
+
+header button {
+    font-size: 0.6em;
+    margin: 1em 0 1em 0;
+    padding: .2em 1.5em .2em 1.5em;
+    border-radius: 1em;
+    background-color: #001d3d;
+    border: 1px solid white;
+}
+
+header button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* ------------------------------ */
+/* Body */
+#main-body {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 7em;
+}
+
+#main-body div {
+    padding: 3em;
+
+}
+
+#main-body div img {
+    max-width: 500px;
+}
+
+.style:nth-child(even) img {
+    /* box-shadow: 7px 5px 4px #a1a1a1; */
+    box-shadow: 0.3rem 0 0.75rem #a1a1a1;
+}
+
+.style:nth-child(odd) img {
+    /* box-shadow: -7px 5px 4px #a1a1a1; */
+    box-shadow: -0.3rem 0 0.75rem #a1a1a1;
+}
+
+#main-body div h3 {
+    font-size: 30px;
+    margin-bottom: 0.5em;
+}
+
+.style {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 35%;
+    margin-left: auto;
+
+    text-align: center;
+}
+
+.right h3 {
+    margin: auto;
+    text-align: center;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 35%;
+
+    text-align: center;
+}
+
+#profile {
+    max-width: 35px;
+}
+
+#profile:hover {
+    cursor: pointer;
+}
+
+#dropdown.hide {
+    display: none;
+}
+
+#dropdown {
+    margin-top: 3px;
+    background-color: #F8F9FA;
+    max-height: 120px;
+    border: 1px solid #444444;
+    border-radius: 0.3em;
+    padding: 1em 1em;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 65px;
+    right: 210px;
+}
+
+#dropdown h3 {
+    font-weight: 550;
+    font-size: 19px;
+    padding-bottom: .2em;
+    color: #013690;
+
+}
+
+#dropdown li:nth-of-type(2) {
+    padding-bottom: .9em;
+    font-size: 15px;
+}
+
+#dropdown-end img {
+    max-width: 20px;
+}
+
+#dropdown-end #color {
+    color: #000000;
+}
+
+#dropdown-end {
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0;
+    font-size: 16px;
+    gap: 5px;
+}
+
+/* ------------------------------ */
+/* Contact */
+
+footer {
+    background-color: #001d3d;
+    padding: 0 3em;
+    min-height: 300px;
+    color: white;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 0;
+}
+
+#contact h2 {
+    margin-bottom: 0.5em;
+}
+
+#contact input[type=text],
+#contact input[type=email] {
+    padding: 1em;
+    width: 300px;
+    margin: 0.5em;
+    border: 3px solid #415a77;
+}
+
+#contact button {
+    font-size: 15px;
+    margin: 1em 0 1em 0;
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 2em;
+    background-color: #001d3d;
+    border: 1px solid white;
+    color: white;
+}
+
+#end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+button:hover {
+    cursor: pointer;
+}
