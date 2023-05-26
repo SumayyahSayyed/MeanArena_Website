@@ -18,7 +18,7 @@ This project is made in correspondence to our MeanArena Chrome Extension. The we
 
 ### Screenshot
 
-![](My-Design/Frontpage.png)
+![](My-Design/frontpage.png)
 ![](My-Design/Register.png)
 ![](My-Design/Login.png)
 ![](My-Design/Dashboard.png)
